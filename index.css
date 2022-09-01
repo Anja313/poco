@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(168, 154, 154);
+    /* background: linear-gradient(to right, #777583, #4e4e3c); */
+
+
+}
+
+
+
+.poke-container {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    justify-content: center;
+
+
+}
+
+.pokemon {
+
+    border-radius: 15px;
+    box-shadow: 0 3px 15px rgba(29, 28, 28, 0.5);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.showPoco {}
+
+
+.img {
+
+    height: 150px;
+    padding: 3%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 1.5rem rgb(255, 255, 255));
+}
+
+.img2 {
+    
+    height: 300px;
+    filter: drop-shadow(0 0 1.5rem rgb(255, 255, 255));
+}
+
+
+/* 
+.img:hover {
+
+    width: 170px;
+    height: 170px;
+
+
+
+} */
+
+
+
+
+.mdl-layout__header {
+    /* 
+background: linear-gradient(to right, #494661, #5b5b1e)!important; */
+    background-color: rgb(148, 139, 139);
+    margin-bottom: 3%;
+    height: 80px !important;
+    padding-top: 5px;
+    filter: drop-shadow(0 0 1rem rgb(255, 255, 255));
+    color: black;
+
+}
+
+.mdl-layout__header-row {
+    filter: drop-shadow(0 0 1rem rgb(255, 255, 255));
+
+}
+
+
+
+/* //_-------------------------------- */
+
+
+
+
+
+/* .headline {
+    text-align: center;
+    font-size: 32px;
+    margin: 30px;
+}
+
+.showAllImg {
+   width: 400px;
+    height: 250px;
+   margin: 10px;
+   cursor:pointer ;
+   opacity: 0.7;
+   object-fit: cover;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+}
+
+
+
+.showAllImg:hover {
+    opacity: 1.0; 
+} */
+
+
+
+.slideContainer {
+    width: 90vw;
+    height: 90%;
+    /* position: fixed; */
+    top: 0%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+        /* background-color: rgba(255, 255, 255, 0.74); */
+      
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        backdrop-filter: blur(6px);
+    /* justify-content: flex-start; */
+}
+
+.showPoco{
+
+    display: flex;
+    justify-content: center;
+ 
+
+}
+
+
+.typeText{
+    font-weight: bolder;
+
+   
+    text-align: center;
+}
+
+.slideshow {
+    margin: 70px;
+    width: 70vw;
+}
+
+
+/* //-------------------------------------- */
+
+
+.rightImg {
+    position: absolute;
+    top: 50vh;
+    right: 10vw;
+    cursor: pointer;
+}
+
+.imgNumber {
+    position: absolute;
+    top: 90vh;
+    right: 50vw;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 32px;
+}
+
+
+.leftImg {
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+    cursor: pointer;
+}
+
+.closeImg {
+  
+    background-color: rgb(50, 50, 50);
+    right: 50vw;
+    cursor: pointer;
+
+
+}
+
+
+
+.bi {
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+    font-size: 35px;
+}
